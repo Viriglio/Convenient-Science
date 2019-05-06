@@ -1,0 +1,6 @@
+{
+	"variants":
+	{
+		"": { "model": "cscience:block/pig_iron_block" }
+	}
+}

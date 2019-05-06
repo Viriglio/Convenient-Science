@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_all",
+	"textures":
+	{
+		"all": "cscience:block/heavy_alloy_block"
+	}
+}

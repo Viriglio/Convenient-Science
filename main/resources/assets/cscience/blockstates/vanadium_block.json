@@ -1,0 +1,6 @@
+{
+	"variants":
+	{
+		"": { "model": "cscience:block/vanadium_block" }
+	}
+}

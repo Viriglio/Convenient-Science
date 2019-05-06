@@ -1,0 +1,6 @@
+{
+	"variants":
+	{
+		"": { "model": "cscience:block/heavy_alloy_block" }
+	}
+}

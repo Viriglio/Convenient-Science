@@ -1,0 +1,15 @@
+{
+ 	"item.cscience.vanadium_ingot": "Vanadium Ingot",
+	"item.cscience.zirconium_ingot": "Zirconium Ingot",
+	"item.cscience.pig_iron_ingot": "Pig Iron Ingot",
+	"item.cscience.heavy_alloy_ingot": "Heavy Alloy Ingot",
+	
+	"item.cscience.heavy_alloy_hamaxe": "Heavy Alloy Hamaxe",
+	
+	"block.cscience.vanadium_block": "Vanadium Block",
+	"block.cscience.zirconium_block": "Zirconium Block",
+	"block.cscience.pig_iron_block": "Pig Iron Block",
+	"block.cscience.heavy_alloy_block": "Heavy Alloy Block",
+	
+	"itemGroup.terrestrial": "CScience Terrestrial"
+}
