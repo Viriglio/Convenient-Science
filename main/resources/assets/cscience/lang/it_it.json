@@ -1,15 +1,18 @@
 {
- 	"item.cscience.vanadium_ingot": "Lingotto di Vanadio",
-	"item.cscience.zirconium_ingot": "Lingotto di Zirconio",
-	"item.cscience.pig_iron_ingot": "Lingotto di Ghisa",
-	"item.cscience.heavy_alloy_ingot": "Lingotto in Lega Pesante",
+ 	"item.cscience.vanadium_ingot": "Lingotto di vanadio",
+	"item.cscience.zirconium_ingot": "Lingotto di zirconio",
+	"item.cscience.pig_iron_ingot": "Lingotto di ghisa",
+	"item.cscience.heavy_alloy_ingot": "Lingotto di lega pesante",
 	
-	"item.cscience.heavy_alloy_hamaxe": "Maglio in Lega Pesante",
+	"item.cscience.heavy_alloy_hamaxe": "Maglio in lega",
+	"item.cscience.heavy_alloy_wrench": "Chiave inglese in lega",
 	
-	"block.cscience.vanadium_block": "Blocco di Vanadio",
-	"block.cscience.zirconium_block": "Blocco di Zirconio",
-	"block.cscience.pig_iron_block": "Blocco di Ghisa",
-	"block.cscience.heavy_alloy_block": "Blocco in Lega Pesante",
+	"block.cscience.vanadium_block": "Blocco di vanadio",
+	"block.cscience.zirconium_block": "Blocco di zirconio",
+	"block.cscience.pig_iron_block": "Blocco di ghisa",
+	"block.cscience.heavy_alloy_block": "Blocco di lega pesante",
+	"block.cscience.vanadium_ore": "Minerale di vanadio",
+	"block.cscience.zirconium_ore": "Minerale di zirconio",
 	
 	"itemGroup.terrestrial": "CScience Terrestre"
 }

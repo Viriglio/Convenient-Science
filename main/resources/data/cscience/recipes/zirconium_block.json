@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"III",
+		"III"
+	],	
+	
+	"key":
+	{
+		"I": { "item": "cscience:zirconium_ingot" }
+	},
+	
+	"result": { "item": "cscience:zirconium_block" },
+	
+	"count": 1
+}

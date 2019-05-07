@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+
+    "ingredients":
+    [
+        { "item": "cscience:vanadium_block" }
+    ],
+
+    "result":
+    {
+        "item": "cscience:vanadium_ingot",
+        "count": 9
+    }
+}

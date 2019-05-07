@@ -1,0 +1,7 @@
+{
+ 	"parent": "item/handheld",
+ 	"textures":
+	{
+		"layer0": "cscience:item/heavy_alloy_wrench"
+	}
+}

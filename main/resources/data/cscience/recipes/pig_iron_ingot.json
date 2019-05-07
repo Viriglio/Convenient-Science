@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+
+    "ingredients":
+    [
+        { "item": "cscience:pig_iron_block" }
+    ],
+
+    "result":
+    {
+        "item": "cscience:pig_iron_ingot",
+        "count": 9
+    }
+}

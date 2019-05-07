@@ -18,11 +18,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import viriglio.convenientscience.itemgroups.TerrestrialItemGroup;
 import viriglio.convenientscience.items.ItemHamaxe;
+import viriglio.convenientscience.items.ItemWrench;
 import viriglio.convenientscience.items.bases.ItemBase;
 import viriglio.convenientscience.items.bases.ItemBlockBase;
 import viriglio.convenientscience.lists.BlockList;
 import viriglio.convenientscience.lists.ItemList;
 import viriglio.convenientscience.lists.ToolMaterialList;
+import world.OreGen;
 
 @Mod("cscience")
 public class ConvenientScience
@@ -45,7 +47,7 @@ public class ConvenientScience
 	
 	private void setup(final FMLCommonSetupEvent event)
 	{
-		
+		OreGen.setupOreGen();
 		logger.info("Setup method registered.");
 	}
 	
@@ -69,11 +71,14 @@ public class ConvenientScience
 				ItemList.heavy_alloy_ingot = new ItemBase("Particularly resistant to most agents", new Item.Properties().group(terrestrial)).setRegistryName(location("heavy_alloy_ingot")),
 				
 				ItemList.heavy_alloy_hamaxe = new ItemHamaxe("Totally not a reference to Terraria", ToolMaterialList.heavy_alloy, -2, 6.0f, new Item.Properties().group(terrestrial)).setRegistryName("heavy_alloy_hamaxe"),
+				ItemList.heavy_alloy_wrench = new ItemWrench("I am inevitable", new Item.Properties().group(terrestrial)).setRegistryName(location("heavy_alloy_wrench")),
 				
 				ItemList.vanadium_block = new ItemBlockBase("Even more resistant to oxidation", BlockList.vanadium_block, new Item.Properties().group(terrestrial)).setRegistryName(BlockList.vanadium_block.getRegistryName()),
 				ItemList.zirconium_block = new ItemBlockBase("Even more resistant to radiation", BlockList.zirconium_block, new Item.Properties().group(terrestrial)).setRegistryName(BlockList.zirconium_block.getRegistryName()),
 				ItemList.pig_iron_block = new ItemBlockBase("Even more resistant to solicitation", BlockList.pig_iron_block, new Item.Properties().group(terrestrial)).setRegistryName(BlockList.pig_iron_block.getRegistryName()),
-				ItemList.heavy_alloy_block = new ItemBlockBase("Even more resistant to most agents", BlockList.heavy_alloy_block, new Item.Properties().group(terrestrial)).setRegistryName(BlockList.heavy_alloy_block.getRegistryName())
+				ItemList.heavy_alloy_block = new ItemBlockBase("Even more resistant to most agents", BlockList.heavy_alloy_block, new Item.Properties().group(terrestrial)).setRegistryName(BlockList.heavy_alloy_block.getRegistryName()),
+				ItemList.vanadium_ore = new ItemBlockBase("Mostly found in forests", BlockList.vanadium_ore, new Item.Properties().group(terrestrial)).setRegistryName(BlockList.vanadium_ore.getRegistryName()),
+				ItemList.zirconium_ore = new ItemBlockBase("Mostly found in deserts", BlockList.zirconium_ore, new Item.Properties().group(terrestrial)).setRegistryName(BlockList.zirconium_ore.getRegistryName())
 			);
 			
 			
@@ -88,7 +93,9 @@ public class ConvenientScience
 				BlockList.vanadium_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(4.0f, 5.0f).sound(SoundType.METAL)).setRegistryName(location("vanadium_block")),
 				BlockList.zirconium_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(4.5f, 4.0f).sound(SoundType.METAL)).setRegistryName(location("zirconium_block")),
 				BlockList.pig_iron_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(6.0f, 5.5f).sound(SoundType.METAL)).setRegistryName(location("pig_iron_block")),
-				BlockList.heavy_alloy_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(8.0f, 6.0f).sound(SoundType.METAL)).setRegistryName(location("heavy_alloy_block"))
+				BlockList.heavy_alloy_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(8.0f, 6.0f).sound(SoundType.METAL)).setRegistryName(location("heavy_alloy_block")),
+				BlockList.vanadium_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0f, 3.5f).sound(SoundType.STONE)).setRegistryName(location("vanadium_ore")),
+				BlockList.zirconium_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0f, 3.5f).sound(SoundType.STONE)).setRegistryName(location("zirconium_ore"))
 			);
 			
 			

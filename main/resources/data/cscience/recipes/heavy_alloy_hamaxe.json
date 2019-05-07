@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"BII",
+		"BS ",
+		" S "
+	],
+	
+	"key":
+	{
+		"B": { "item": "cscience:heavy_alloy_block" },
+		
+		"S": { "item": "cscience:pig_iron_ingot" },
+		
+		"I": { "item": "cscience:heavy_alloy_ingot" }
+	},
+	
+	"result": { "item": "cscience:heavy_alloy_hamaxe" },
+	
+	"count": 1
+}

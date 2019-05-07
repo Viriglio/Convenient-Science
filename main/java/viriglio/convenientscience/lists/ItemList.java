@@ -13,6 +13,9 @@ public class ItemList
 	public static Item zirconium_block;
 	public static Item pig_iron_block;
 	public static Item heavy_alloy_block;
+	public static Item vanadium_ore;
+	public static Item zirconium_ore;
 	
 	public static Item heavy_alloy_hamaxe;
+	public static Item heavy_alloy_wrench;
 }

@@ -1,15 +1,18 @@
 {
- 	"item.cscience.vanadium_ingot": "Vanadium Ingot",
-	"item.cscience.zirconium_ingot": "Zirconium Ingot",
-	"item.cscience.pig_iron_ingot": "Pig Iron Ingot",
-	"item.cscience.heavy_alloy_ingot": "Heavy Alloy Ingot",
+ 	"item.cscience.vanadium_ingot": "Vanadium ingot",
+	"item.cscience.zirconium_ingot": "Zirconium ingot",
+	"item.cscience.pig_iron_ingot": "Pig iron ingot",
+	"item.cscience.heavy_alloy_ingot": "Heavy alloy ingot",
 	
-	"item.cscience.heavy_alloy_hamaxe": "Heavy Alloy Hamaxe",
+	"item.cscience.heavy_alloy_hamaxe": "Heavy alloy hamaxe",
+	"item.cscience.heavy_alloy_wrench": "Heavy alloy wrench",
 	
-	"block.cscience.vanadium_block": "Vanadium Block",
-	"block.cscience.zirconium_block": "Zirconium Block",
-	"block.cscience.pig_iron_block": "Pig Iron Block",
-	"block.cscience.heavy_alloy_block": "Heavy Alloy Block",
+	"block.cscience.vanadium_block": "Vanadium block",
+	"block.cscience.zirconium_block": "Zirconium block",
+	"block.cscience.pig_iron_block": "Pig iron block",
+	"block.cscience.heavy_alloy_block": "Heavy alloy block",
+	"block.cscience.vanadium_ore": "Vanadium ore",
+	"block.cscience.zirconium_ore": "Zirconium ore",
 	
 	"itemGroup.terrestrial": "CScience Terrestrial"
 }
