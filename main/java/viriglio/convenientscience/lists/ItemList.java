@@ -18,4 +18,6 @@ public class ItemList
 	
 	public static Item heavy_alloy_hamaxe;
 	public static Item heavy_alloy_wrench;
+	public static Item thanos_ruin;
 }
+

@@ -17,3 +17,4 @@ public class TerrestrialItemGroup extends ItemGroup
 		return new ItemStack(ItemList.vanadium_ingot);
 	}
 }
+

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"I",
+		"S",
+		"S"
+	],
+	
+	"key":
+	{
+		"S": { "item": "cscience:pig_iron_ingot" },
+		
+		"I": { "item": "cscience:heavy_alloy_ingot" }
+	},
+	
+	"result": { "item": "cscience:heavy_alloy_wrench" },
+	
+	"count": 1
+}

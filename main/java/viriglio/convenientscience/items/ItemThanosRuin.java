@@ -1,24 +1,25 @@
-package viriglio.convenientscience.items.bases;
+package viriglio.convenientscience.items;
 
 import java.util.List;
 
-import net.minecraft.block.Block;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.item.ItemBlock;
+import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemSword;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
-public class ItemBlockBase extends ItemBlock
-{	
+public class ItemThanosRuin extends ItemSword
+{
 	private String desc;
 
-	public ItemBlockBase(String desc, Block blockIn, Properties builder)
+	public ItemThanosRuin(String desc, IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builder)
 	{
-		super(blockIn, builder);
+		super(tier, attackDamageIn, attackSpeedIn, builder);
+		
 		this.desc = desc;
 	}
 	

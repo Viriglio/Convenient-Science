@@ -58,3 +58,4 @@ public enum ToolMaterialList implements IItemTier
 		return Ingredient.fromItems(this.repairMaterial);
 	}
 }
+

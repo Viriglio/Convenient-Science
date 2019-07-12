@@ -10,4 +10,5 @@ public class BlockList
 	public static Block heavy_alloy_block;
 	public static Block vanadium_ore;
 	public static Block zirconium_ore;
+	public static Block space_dust_cluster;
 }

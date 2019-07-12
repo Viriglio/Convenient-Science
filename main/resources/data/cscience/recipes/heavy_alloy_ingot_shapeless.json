@@ -1,14 +1,16 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	
-	"ingredients":
-	[
-		{ "item": "cscience:vanadium_ingot" },
+    "type": "crafting_shapeless",
+
+    "ingredients":
+    [
+        { "item": "cscience:vanadium_ingot" },
 		{ "item": "cscience:zirconium_ingot" },
 		{ "item": "cscience:pig_iron_ingot" }
-	],
-	
-	"result": { "item": "cscience:heavy_alloy_ingot" },
-	
-	"count": 2
+    ],
+
+    "result":
+    {
+        "item": "cscience:heavy_alloy_ingot",
+        "count": 3
+    }
 }
